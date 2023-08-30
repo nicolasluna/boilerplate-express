@@ -11,8 +11,6 @@ app.get('/', (req, res) => {
  res.sendFile(absolutePath);
 })
 
-app.use();
-
 //#2
 // app.get('/', (req, res) => {
 //  res.send('Hello Express');
